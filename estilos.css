@@ -1,0 +1,59 @@
+body {
+    background-color: darkgray;
+    background-size: 100 vm 100 vh;
+    background-attachment: fixed;
+    margin: 0;
+   font-family: monospace; 
+}
+    
+form {
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0,4);
+    padding: 19px 25px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+h2 {
+    colo
+    text-align: center;
+    margin: 0;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+input, texterea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+texterea {
+    min-height: 175px;
+    max-height: 400px;
+    max-width: 300%;
+}
+
+#boton{
+    background: #31384A;
+    color: #fff;
+    padding: 20px;
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+
+@media (max-width:480px) {
+    form{
+        width: 200%;
+    }
+    
+    
+}
